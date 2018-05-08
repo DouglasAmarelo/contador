@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+html,
+body {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	text-align: center;
+	width: 90%;
+}
+
+.page-title,
+.form {
+	display: inline-block;
+}
+
+.date {
+	font-size: 18px;
+	padding: .5em;
+}
+
+.countdown {
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin: 2em auto;
+	max-width: 300px;
+}
